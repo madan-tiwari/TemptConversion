@@ -25,13 +25,12 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         btnsi.setOnClickListener(this);
 
 
-
     }
 
     @Override
     public void onClick(View v) {
         if(v.getId()==R.id.btnCalc){
-            Intent intent = new Intent(DashboardActivity.this,MainActivity.class);
+            Intent intent = new Intent(DashboardActivity.this,CalculatorActivity.class);
             startActivity(intent);
         }
         else if(v.getId()==R.id.btnTemp){
@@ -39,8 +38,8 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
             startActivity(intent);
 
         }
-        else if(v.getId()==R.id.btnTemp){
-            Intent intent = new Intent(DashboardActivity.this, MainActivity.class);
+        else if(v.getId()==R.id.btnSI){
+            Intent intent = new Intent(DashboardActivity.this, SIActivity.class);
             startActivity(intent);
 
         }

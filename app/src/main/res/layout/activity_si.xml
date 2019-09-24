@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Principle"
+        />
+    <EditText
+        android:id="@+id/etT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Time"
+        />
+    <EditText
+        android:id="@+id/etR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Rate"
+        />
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:hint="Calculate"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/view_result"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+
+        />
+
+</LinearLayout>
