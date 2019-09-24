@@ -32,9 +32,18 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     public void onClick(View v) {
         if(v.getId()==R.id.btnCalc){
             Intent intent = new Intent(DashboardActivity.this,MainActivity.class);
-        
+            startActivity(intent);
         }
+        else if(v.getId()==R.id.btnTemp){
+            Intent intent = new Intent(DashboardActivity.this, MainActivity.class);
+            startActivity(intent);
 
+        }
+        else if(v.getId()==R.id.btnTemp){
+            Intent intent = new Intent(DashboardActivity.this, MainActivity.class);
+            startActivity(intent);
+
+        }
 
     }
 }
